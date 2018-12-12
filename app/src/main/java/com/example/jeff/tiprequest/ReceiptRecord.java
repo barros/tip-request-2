@@ -15,8 +15,6 @@ public class ReceiptRecord implements Serializable {
     private LatLng locLatLng;
     private String time;
 
-
-    // if location is available
     public ReceiptRecord(String firebaseKey, double subtotal, double total, double tipPercent, double tipAmount, String location, LatLng locLatLng, String time) {
         this.firebaseKey = firebaseKey;
         this.subtotal = subtotal;
@@ -27,6 +25,8 @@ public class ReceiptRecord implements Serializable {
         this.locLatLng = locLatLng;
         this.time = time;
     }
+
+    // initializer if firebaseKey isn't available
     public ReceiptRecord(double subtotal, double total, double tipPercent, double tipAmount, String location, LatLng locLatLng, String time) {
         this.firebaseKey = "";
         this.subtotal = subtotal;
