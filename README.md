@@ -4,7 +4,7 @@ _Tip Request_ was created as a way to allow users to track food purchases they h
 
 #### Future Additions
 
-- Sync and use same database as *Tip Request* iOS
+- Sync and use same database as *Tip Request* for iOS
 
 [_Click here to view the iOS version!_](https://github.com/barros/tip-request)
 
